@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<ExcludeRoslynAnalyzersFromBuild>true</ExcludeRoslynAnalyzersFromBuild>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Ardalis.Specification.EntityFrameworkCore" Version="8.0.0" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="8.0.0" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.0" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.0">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="8.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="8.0.0" />
+		<PackageReference Include="MongoDB.Driver" Version="3.4.3" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Op.Prueba.Application\Op.Prueba.Application.csproj" />
+		<ProjectReference Include="..\Op.Prueba.Domain\Op.Prueba.Domain.csproj" />
+	</ItemGroup>
+
+	<!-- ⚠️ EXCLUIR Analyzers de design-time -->
+	<ItemGroup>
+		<PackageReference Update="Microsoft.CodeAnalysis.Analyzers" PrivateAssets="all" />
+		<PackageReference Update="Microsoft.CodeAnalysis.Common" PrivateAssets="all" />
+		<PackageReference Update="Microsoft.CodeAnalysis.CSharp.Workspaces" PrivateAssets="all" />
+		<PackageReference Update="Microsoft.CodeAnalysis.Workspaces.Common" PrivateAssets="all" />
+	</ItemGroup>
+
+</Project>

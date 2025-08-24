@@ -1,0 +1,6 @@
+@Op.Prueba.WebApi_HostAddress = http://localhost:5207
+
+GET {{Op.Prueba.WebApi_HostAddress}}/api/v1/courses/
+Accept: application/json
+
+###

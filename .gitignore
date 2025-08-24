@@ -1,0 +1,37 @@
+﻿################################################################################
+# Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
+################################################################################
+
+/Op.Prueba.Application/bin/Debug/
+/Op.Prueba.Application/obj
+/Op.Prueba.Domain/bin/Debug/
+/Op.Prueba.Domain/obj
+/Op.Prueba.Identity/bin/Debug/
+/Op.Prueba.Identity/obj
+/Op.Prueba.Persistence/bin/Debug/
+/Op.Prueba.Persistence/obj
+/Op.Prueba.WebApi/bin/Debug/
+/Op.Prueba.WebApi/obj
+/Op.Prueba.Common/bin/Debug/
+/Op.Prueba.Common/obj
+/Op.Prueba.Security/bin/Debug/
+/Op.Prueba.Security/obj
+/Op.Prueba.Test/bin/Debug/
+/Op.Prueba.Test/obj
+/.vs/
+/obj/
+/.vs/Op.Prueba.Back/v17/DocumentLayout.json
+/Op.Prueba.WebApi/bin/Release/net8.0
+/Op.Prueba.WebApi/Properties/PublishProfiles
+/Op.Prueba.WebApi/Properties/ServiceDependencies/InterRapidisimo-Back - Zip Deploy2
+/Op.Prueba.WebApi/Properties
+*.Test
+/OP.Prueba.Security/bin/Release/net8.0
+/Op.Prueba.Persistence/bin/Release/net8.0
+/Op.Prueba.Identity/bin/Release/net8.0
+/Op.Prueba.Domain/bin/Release/net8.0
+/Op.Prueba.Common/bin/Release/net8.0
+/Op.Prueba.Application/bin/Release/net8.0
+/Op.Prueba.Application/bin/Release/net8.0
+/.vs/Op.Prueba.Back/
+/.vs/ProjectEvaluation/

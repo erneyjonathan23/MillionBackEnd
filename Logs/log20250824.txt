@@ -1,0 +1,16 @@
+2025-08-24 18:21:33.866 -05:00 [INF] Now listening on: http://localhost:53815
+2025-08-24 18:21:34.191 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-24 18:21:34.215 -05:00 [INF] Hosting environment: Development
+2025-08-24 18:21:34.231 -05:00 [INF] Content root path: C:\Users\erney\OneDrive\Escritorio\MillionBack\Op.Prueba.WebApi
+2025-08-24 18:21:37.261 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:53815/ - null null
+2025-08-24 18:21:38.580 -05:00 [WRN] Failed to determine the https port for redirect.
+2025-08-24 18:21:38.682 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:53815/ - 404 0 null 1454.2297ms
+2025-08-24 18:21:38.838 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:53815/, Response status code: 404
+2025-08-24 18:21:43.643 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:53815/swagger/index.html - null null
+2025-08-24 18:21:43.880 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:53815/swagger/index.html - 200 null text/html;charset=utf-8 240.1369ms
+2025-08-24 18:21:44.052 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:53815/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-24 18:21:44.096 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:53815/_framework/aspnetcore-browser-refresh.js - 200 16517 application/javascript; charset=utf-8 44.0066ms
+2025-08-24 18:21:44.731 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:53815/_vs/browserLink - null null
+2025-08-24 18:21:45.006 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:53815/_vs/browserLink - 200 null text/javascript; charset=UTF-8 274.7829ms
+2025-08-24 18:21:45.575 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:53815/swagger/v1/swagger.json - null null
+2025-08-24 18:21:45.751 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:53815/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 176.0856ms
