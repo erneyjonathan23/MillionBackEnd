@@ -5,17 +5,15 @@ La idea es tener un CRUD completo para cada entidad y probar cómo se conectan e
 
 ---
 
-## Tecnologías usadas
-- ASP.NET Core Web API
-- Entity Framework Core
-- SQL Server
-- Swagger para la documentación
+```bash
+# Clonar el repositorio
+git clone https://github.com/erneyjonathan23/MillionBackEnd.git
 
----
+# Entrar a la carpeta del proyecto
+cd MillionBackEnd
 
-## Cómo correr el proyecto
+# Restaurar dependencias
+dotnet restore
 
-1. Clonar el repositorio:
-
-   ```bash
-   git clone https://github.com/erneyjonathan23/MillionBackEnd.git
+# Ejecutar el proyecto
+dotnet run
